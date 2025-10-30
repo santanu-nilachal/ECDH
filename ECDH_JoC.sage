@@ -654,7 +654,7 @@ for par in range(0,10): # Change lower and upper limit of par to change paramete
 
    
     ZERO = [0]*(2*n+1)
-    for ecc in range(1,2):
+    for ecc in range(1,6):
         success = 0
         if(par>2):
            ecc = 5
